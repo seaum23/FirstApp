@@ -1,0 +1,133 @@
+.form-control{
+  padding:22px;
+}
+
+#carousel-example-generic{
+	margin-top:100px;
+}
+
+.showcase .title,.bookshelf .title{
+  border-bottom: 2px solid #000;
+}
+
+.bookshelf,.showcase{
+  margin:70px;
+}
+
+div.owl-item img{
+    height: 206px;
+    width: 206px;
+}
+
+  .owl-controls .owl-nav div {
+  background: #fff none repeat scroll 0 0;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left:20px;
+  transform: translateY(-50%);
+  width: 40px;
+}
+.slider-active .owl-nav div.owl-next {
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: 20px;
+}
+
+.slider-active .owl-nav div.owl-prev{
+  position: absolute;
+  top: 50%;
+}
+
+.slider-active .owl-dots {
+  bottom: -25px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+.slider-active .owl-dot {
+  background: red none repeat scroll 0 0;
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  margin: 0 2px;
+  width: 15px;
+}
+.slider-active .owl-dot.active {
+  background: green none repeat scroll 0 0;
+}
+
+
+footer{
+  padding: 50px;
+  background: #333;
+}
+
+
+
+/*cart page css start*/
+
+.cart_body{
+  margin-top:100px;
+}
+.page-header {
+  text-align: center;
+}
+.page-header small {
+  display: block;
+}
+
+.cart-row {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+.cart-row div {
+  text-align: center; 
+}
+.cart-row img.img-responsive { 
+  margin: 0 auto; 
+}
+
+.h3-price { 
+  color: rgb(20, 80, 150);
+  font-family: 'Oxygen Mono', monospace;
+}
+
+.cart-qty-input {
+  font-size: 1em;
+  font-family: $sweet-monospaced;
+  margin-top: 10px;
+  padding: 10px;
+  width: 95%;
+  border: 1px solid black;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Oxygen+Mono';
+$sweet-blue-primary: rgb(20, 80, 150);
+$sweet-monospaced: 'Oxygen Mono', monospace;
+.h3-price { 
+  color: $sweet-blue-primary; 
+  font-family: $sweet-monospaced;
+}
+/*cart page css ends*/
+
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .page-header {
+    text-align: left;
+  }
+  .page-header small {
+    display: inline;
+  }
+}
