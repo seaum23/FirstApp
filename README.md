@@ -1,5 +1,5 @@
 # FirstApp
-this is our cse 310 course project
+This is our cse 310 course project
 ---------
 Accessing admin page
 ---------
